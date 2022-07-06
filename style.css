@@ -145,3 +145,49 @@ body {
 .education-content {
     background: #FFF4D6;
 }
+
+.middle-banner2 {
+    margin-bottom: 100px;
+}
+
+.middle-banner3 {
+    display: flex;
+    margin-bottom: 100px;
+    width: 900px;
+    margin: auto;
+}
+
+.sub-middle-banner3 {
+    width: 50%;
+}
+
+.sub-middle-banner3 img {
+    width: 100%;
+    height: 400px;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+
+.buttontype {
+    background: tomato;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sub-middle-banner3 div {
+    margin-top: 40px;
+}
+
+.content-part {
+    margin-right: 40px;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+.content-part h1 {
+    font-size: 30px;
+    font-family: arial black;
+}
