@@ -29,6 +29,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
+    margin-bottom: 100px;
 }
 
 .donate-bttn {
@@ -44,14 +45,18 @@ body {
     margin-bottom: 40px;
 }
 
-.sub-middle-banner {
+.middle-banner1 {
+    margin-bottom: 100px;
+}
+
+.sub-middle-banner1 {
     width: 650px;
     margin: auto;
     text-align: center;
     padding-top: 50px;
 }
 
-.sub-middle-banner h1 {
+.sub-middle-banner1 h1 {
     font-family: arial black;
     font-size: 30px;
 }
@@ -67,7 +72,7 @@ body {
     color: #707070;
 }
 
-.sub-middle-banner p {
+.sub-middle-banner1 p {
     margin-bottom: 40px;
 }
 
@@ -97,7 +102,7 @@ body {
     padding-bottom: 20px;
 }
 
-.sub-middle-banner button {
+.sub-middle-banner1 button {
     padding: 10px 20px;
     color: white;
     border-radius: 5px;
@@ -105,4 +110,38 @@ body {
     background: tomato;
     font-weight: bold;
     margin-top: 20px;
+}
+
+.sub-middle-banner2 {
+    width: 800px;
+    margin: auto;
+}
+
+.donatePlan-content {
+    width: 500px;
+    text-align: center;
+    margin: auto;
+}
+
+.content-box {
+    display: flex;
+}
+
+.content-box div {
+    width: 48%;
+    border-radius: 4px;
+    padding: 30px 20px;
+    margin-right: 15px;
+}
+
+.food-content {
+    background: #EDF5F6;
+}
+
+.shelter-content {
+    background: #FFEEEE;
+}
+
+.education-content {
+    background: #FFF4D6;
 }
