@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    border: 5px solid rgb(216, 212, 212);
     font-family: 'Fira Sans', sans-serif;
     font-family: 'Fira Sans Extra Condensed', sans-serif;
     font-family: 'Oswald', sans-serif;
@@ -123,6 +124,15 @@ body {
     margin: auto;
 }
 
+.donatePlan-content h1 {
+    font-size: 38px;
+    font-family: arial black;
+}
+
+.donatePlan-content p {
+    margin-bottom: 40px;
+}
+
 .content-box {
     display: flex;
 }
@@ -155,6 +165,7 @@ body {
     margin-bottom: 100px;
     width: 900px;
     margin: auto;
+    padding-bottom: 100px;
 }
 
 .sub-middle-banner3 {
@@ -190,4 +201,91 @@ body {
 .content-part h1 {
     font-size: 30px;
     font-family: arial black;
+}
+
+.middle-banner4 {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    padding-bottom: 150px;
+}
+
+.middle-banner4 img {
+    width: 450px;
+    border-radius: 5px;
+    padding-right: 70px;
+}
+
+.middle-banner4 h1 {
+    font-size: 35px;
+    font-family: arial black;
+}
+
+.middle-banner4 a {
+    background: tomato;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.middle-banner4 p {
+    padding-bottom: 20px;
+}
+
+.updates-part {
+    width: 800px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.updates-part h1 {
+    font-size: 35px;
+    font-family: arial black;
+}
+
+.updates-part p {
+    width: 600px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.updates-email {
+    background: #faecc4;
+    padding: 60px 0px;
+    border-radius: 5px;
+}
+
+.updates-email input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px 0px 0px 5px;
+    font-weight: bold;
+    padding-right: 40px;
+}
+
+.updates-email button {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 0px 5px 5px 0px;
+    background: tomato;
+    color: white;
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+    background: black;
+    padding: 40px;
+}
+
+.footer h2 {
+    color: #FF5959;
+}
+
+.footer span {
+    color: white;
 }
